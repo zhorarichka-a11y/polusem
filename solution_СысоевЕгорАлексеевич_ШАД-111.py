@@ -10,7 +10,6 @@ OUTPUT_DIR = 'output'
 PLOTS_DIR = os.path.join(OUTPUT_DIR, 'plots')
 
 
-IQR_MULTIPLIER = 3.0
 
 
 def load_data(filepath: str) -> pd.DataFrame:
